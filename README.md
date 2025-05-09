@@ -108,4 +108,10 @@ This repository contains the **final version** of the project, including the ful
 College of Computer Science & IT, Imam Abdulrahman Bin Faisal University  
 Academic Year: 2024–2025
 
+---
+
+## 📌 License
+
+This project is developed for academic purposes only and is not intended for commercial use. The prototype and report are shared for educational and portfolio purposes.
+
 
