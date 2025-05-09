@@ -1,53 +1,90 @@
 # 🐾 Pets Heaven – E-Commerce Website
 
-**Pets Heaven** is an online pet supply shopping platform developed as part of the **Web-Based Systems (CIS423)** course at **Imam Abdulrahman Bin Faisal University**. The goal is to provide pet owners with a convenient and user-friendly e-commerce experience for buying pet products like food, toys, and accessories.
+**Pets Heaven** is a complete online pet supply shopping platform developed as part of the **Web-Based Systems (CIS423)** course at **Imam Abdulrahman Bin Faisal University**. It offers a streamlined and user-friendly experience for purchasing pet products like food, toys, and accessories, with both customer-facing features and admin functionalities.
 
-This repository contains the **ongoing development** of the project, including the web interface, database structure, and admin panel components.
+This repository contains the **final version** of the project, including the full web interface, database schema, admin panel, and all required functionalities for a functioning e-commerce solution.
 
 ---
 
 ## 🧠 Project Overview
 
-- **Purpose**: To build a functional and appealing e-commerce website where users can browse and purchase pet-related products, and administrators can manage the store through a secure backend.
+- **Purpose**: To digitize inventory and purchasing for pet supply businesses, enabling both customers and administrators to engage with the store online.
 - **Technologies Used**:
   - 🖥️ HTML, CSS for frontend
-  - 🐘 PHP for backend functionality
-  - 🗄️ MySQL for data storage
-- **Platform**: Desktop-first, responsive layout
+  - 🐘 PHP for backend scripting
+  - 🗄️ MySQL for database management
+- **Platform**: Desktop-first, with attention to responsive layout and accessibility
 
 ---
 
-## 🚧 Project Status: `In Progress`
+## ✅ Project Status: `Completed`
 
-- ✅ Basic structure and styling complete  
-- ✅ MySQL database created with normalized tables (Admin & Products)  
-- ✅ Admin authentication and control panel built  
-- ✅ Cart and contact pages functional  
-- 🔄 Checkout system, cookies, JavaScript validation, and map integration still in development
+- ✅ Web design and structure implemented  
+- ✅ Full admin authentication system  
+- ✅ Real-time product management (add, edit, delete)  
+- ✅ Product browsing with dynamic detail pages  
+- ✅ Shopping cart, checkout, and past purchase history  
+- ✅ Contact form with embedded Google Maps  
+- ✅ JavaScript form validation and help window  
+- ✅ Manual testing and accessibility improvements included
 
 ---
 
-## ✨ Key Features (So Far)
+## ✨ Final Features
 
-- Product catalog with item details and dynamic quantity control  
-- Shopping cart page for managing selected items  
-- Admin panel for adding, modifying, and removing products  
-- Authentication system for admin login  
-- “Thank you” page and basic contact form
+- Admin login and secured dashboard  
+- Dynamic product catalog with descriptions, prices, and stock tracking  
+- Product add/edit/delete functionality via admin panel  
+- Shopping cart with item management and checkout flow  
+- “Thank You” page confirming purchases  
+- Past purchase summary for returning users  
+- Contact Us page with embedded location map  
+- JavaScript-based form validation and help tooltips  
+- Accessibility and efficiency considerations for smoother UX
+
+---
+
+## 🧪 Testing and Validation
+
+- Full test cases implemented for:
+  - Buying a product
+  - Product management by admin
+  - System login/authentication
+  - Add/update/delete product workflows
 
 ---
 
 ## 📁 Project Structure
 
-- `/html/` — Website pages (e.g., homepage, contact, cart)  
-- `/admin/` — Admin-only pages for login and product management  
-- `/css/` — Styling files  
-- `/images/` — Product and UI images  
-- `Pets_Heaven.sql` — MySQL schema and sample data
+- `/html/` – Public-facing website pages (home, contact, thank-you, etc.)  
+- `/admin/` – Admin login and management pages  
+- `/css/` – Styling and layout sheets  
+- `/images/` – Product and UI images  
+- `Pets_Heaven.sql` – Full database schema and sample data
 
 ---
 
-## 📝 Note
+## 📌 Project Implications
 
-This project is not yet complete. Features such as checkout processing, JavaScript validation, location mapping, cookies for returning users, and user testing are scheduled for the final milestone submission.
+**Solved Problems:**
+- Manual inventory and product updates  
+- No admin control for product changes  
+- No product visibility or purchase option for customers  
+- No way to track customer preferences or purchases  
+- Limited reach beyond local customers
+
+**Technical Solutions Implemented:**
+- Admin portal with database-linked catalog management  
+- Dynamic product listings with real-time updates  
+- Purchase tracking and customer behavior insight  
+- Accessibility and usability improvements
+
+---
+
+## 📅 Course
+
+**CIS423 – Web-Based Systems**  
+College of Computer Science & IT, Imam Abdulrahman Bin Faisal University  
+Academic Year: 2024–2025
+
 
