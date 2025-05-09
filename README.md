@@ -81,6 +81,27 @@ This repository contains the **final version** of the project, including the ful
 
 ---
 
+## 🛠️ How to Run the Project (Using XAMPP)
+
+1. **Install XAMPP**  
+   If you haven't already, download and install [XAMPP](https://www.apachefriends.org/index.html).
+
+2. **Move Project to `htdocs`**  
+   - Extract the contents of the project ZIP folder.
+   - Copy the entire project folder into `C:\xampp\htdocs\`.
+
+3. **Import the Database**  
+   - Open XAMPP and start **Apache** and **MySQL**.
+   - Go to `http://localhost/phpmyadmin/` in your browser.
+   - Create a new database named `pets_heaven`.
+   - Click **Import** and select the `Pets_Heaven.sql` file provided in the project directory.
+
+4. **Run the Website**  
+   - In your browser, go to: `http://localhost/pets_heaven/html/homepage.html`  
+     or navigate to the admin login via: `http://localhost/pets_heaven/admin/admin%20authentication%20page.php`
+
+---
+
 ## 📅 Course
 
 **CIS423 – Web-Based Systems**  
